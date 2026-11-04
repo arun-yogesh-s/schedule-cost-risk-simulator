@@ -1,0 +1,5 @@
+risk_simulator.duckdb
+risk_simulator.duckdb.wal
+__pycache__/
+.venv/
+.DS_Store
