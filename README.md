@@ -4,7 +4,7 @@ A Monte Carlo simulator that turns a project's task list and risk register into 
 
 **The analysis is written in SQL (DuckDB).** Python only loads the data, swaps in the run count and seed, and draws the charts.
 
-**Live app:** https://schedule-cost-risk-simulator.streamlit.app *(replace with the deployed link)*
+**Live app:** https://schedule-cost-risk-simulator.streamlit.app
 
 ![Results tab](docs/results.png)
 
