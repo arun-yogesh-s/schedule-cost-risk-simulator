@@ -28,6 +28,7 @@ What the sample shows:
 - **Criticality changes once uncertainty is added.** In the plan, procurement of long-lead equipment is on the critical path. In the simulation, steel erection and civil foundations also become critical in a large share of runs, because they have little float.
 - **Mitigation roughly pays for itself.** It does not save a lot of money at P80, but it buys about 11 days for little net cost.
 
+![Risks and critical activities](docs/results-risks.png)
 The results are an illustration of the method on invented numbers, not a forecast of any real project.
 
 ## How it works
@@ -45,6 +46,7 @@ The SQL files run in order:
 | `05_results.sql` | Percentiles, contingency, criticality index, risk impact, comparison | Views, `quantile_cont`, `FILTER`, window functions over aggregates |
 
 ![Schedule tab](docs/schedule.png)
+![How it works tab](docs/how-it-works.png)
 
 ### Design decisions
 
